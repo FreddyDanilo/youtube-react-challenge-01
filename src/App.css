@@ -1,0 +1,36 @@
+.app {
+  width: 100%;
+  height: 100vh;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: min(100%, 320px);
+  margin: 0 auto;
+  padding: 16px;
+  gap: 16px;
+}
+
+.buttons > button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  background-color: #18181a;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  color: #628aff;
+  transition: 0.25s;
+}
+
+.buttons > button:hover {
+  background-color: #28282c;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  background-color: #628aff;
+  position: absolute;
+  border-radius: 6px;
+}
